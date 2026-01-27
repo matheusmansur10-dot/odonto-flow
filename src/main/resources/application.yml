@@ -1,0 +1,5 @@
+spring:
+  application.name: odontoflow
+  jpa:
+    hibernate:
+      ddl-auto: validate
