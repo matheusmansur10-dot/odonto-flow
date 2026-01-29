@@ -33,8 +33,62 @@ public class Colaborador {
 
     private Boolean ativo = true;
 
-    public boolean getPerfil() {
+    // getters e setters
+
+    public PerfilColaborador getPerfil() {
+        return perfil;
     }
 
-    // getters e setters
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    public Clinica getClinica() {
+        return clinica;
+    }
+
+    public void setClinica(Clinica clinica) {
+        this.clinica = clinica;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPerfil(PerfilColaborador perfil) {
+        this.perfil = perfil;
+    }
+
+    public String getRegistroProfissional() {
+        return registroProfissional;
+    }
+
+    public void setRegistroProfissional(String registroProfissional) {
+        this.registroProfissional = registroProfissional;
+    }
+
+    public Boolean getAtivo() {
+        return ativo;
+    }
+
+    public void setAtivo(Boolean ativo) {
+        this.ativo = ativo;
+    }
+
 }

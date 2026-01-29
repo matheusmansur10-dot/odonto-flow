@@ -28,4 +28,44 @@ public class Atendimento {
     private LocalDateTime createdAt;
 
     // getters e setters
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public Agendamento getAgendamento() {
+        return agendamento;
+    }
+
+    public void setAgendamento(Agendamento agendamento) {
+        this.agendamento = agendamento;
+    }
+
+    public String getObservacoes() {
+        return observacoes;
+    }
+
+    public void setObservacoes(String observacoes) {
+        this.observacoes = observacoes;
+    }
+
+    public String getProcedimentos() {
+        return procedimentos;
+    }
+
+    public void setProcedimentos(String procedimentos) {
+        this.procedimentos = procedimentos;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 }

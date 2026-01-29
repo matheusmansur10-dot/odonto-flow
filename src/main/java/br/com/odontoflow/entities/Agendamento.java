@@ -60,4 +60,84 @@ public class Agendamento {
     private LocalDateTime createdAt;
 
     // getters e setters
+
+    public LocalDate getData() {
+        return data;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public Clinica getClinica() {
+        return clinica;
+    }
+
+    public void setClinica(Clinica clinica) {
+        this.clinica = clinica;
+    }
+
+    public Colaborador getDentista() {
+        return dentista;
+    }
+
+    public void setDentista(Colaborador dentista) {
+        this.dentista = dentista;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
+
+    public LocalTime getHoraInicio() {
+        return horaInicio;
+    }
+
+    public void setHoraInicio(LocalTime horaInicio) {
+        this.horaInicio = horaInicio;
+    }
+
+    public LocalTime getHoraFim() {
+        return horaFim;
+    }
+
+    public void setHoraFim(LocalTime horaFim) {
+        this.horaFim = horaFim;
+    }
+
+    public StatusAgendamento getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusAgendamento status) {
+        this.status = status;
+    }
+
+    public TipoUsuario getCriadoPor() {
+        return criadoPor;
+    }
+
+    public void setCriadoPor(TipoUsuario criadoPor) {
+        this.criadoPor = criadoPor;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 }

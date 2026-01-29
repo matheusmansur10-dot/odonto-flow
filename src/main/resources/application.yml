@@ -3,3 +3,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+
+security:
+  jwt:
+    secret: minha-chave-super-secreta
+    expiration: 3600000 # 1 hora

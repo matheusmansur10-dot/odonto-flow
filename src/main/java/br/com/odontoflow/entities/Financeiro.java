@@ -30,5 +30,53 @@ public class Financeiro {
 
     private LocalDateTime dataPagamento;
 
-    // getters e setters
+// getters e setters
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public Atendimento getAtendimento() {
+        return atendimento;
+    }
+
+    public void setAtendimento(Atendimento atendimento) {
+        this.atendimento = atendimento;
+    }
+
+    public BigDecimal getValor() {
+        return valor;
+    }
+
+    public void setValor(BigDecimal valor) {
+        this.valor = valor;
+    }
+
+    public FormaPagamento getFormaPagamento() {
+        return formaPagamento;
+    }
+
+    public void setFormaPagamento(FormaPagamento formaPagamento) {
+        this.formaPagamento = formaPagamento;
+    }
+
+    public Boolean getPago() {
+        return pago;
+    }
+
+    public void setPago(Boolean pago) {
+        this.pago = pago;
+    }
+
+    public LocalDateTime getDataPagamento() {
+        return dataPagamento;
+    }
+
+    public void setDataPagamento(LocalDateTime dataPagamento) {
+        this.dataPagamento = dataPagamento;
+    }
 }
